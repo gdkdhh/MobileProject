@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void clearClicked(View v){
         edit_name.setText("");
-        view_print.setText("");
+        view_print.setText("contents");
     }
     public void printClicked(View v){
         String text = "";
